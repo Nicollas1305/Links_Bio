@@ -3,17 +3,17 @@
 </h1>
 
 
-Meu linktree pessoal, um site que tem objetivo ter todos os meus links sociais com apenas um link.
+A web page to expose all my social media links.
 
-## Construido com
+## developed using the technologies:
 
 - HTML
 - CSS
 - Javascript
-- Font Awesome, para ícones
+- Font Awesome
 
 ---
 
 <p align= "center">
-  Desenvolvido por <a href="https://github.com/Nicollas1305">Nicollas Marinho Lima. Todos os direitos reservados.</a>
+  Desenvolvido por <a href="https://github.com/Nicollas1305">Nicollas Marinho Lima.</a>  Todos os direitos reservados.
 </p>
