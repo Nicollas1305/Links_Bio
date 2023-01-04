@@ -22,6 +22,5 @@ A web page to expose all my social media links.
 ---
 
 
-<p align= "center">
-  Desenvolvido por <a href="https://github.com/Nicollas1305">Nicollas Marinho Lima.</a>  Todos os direitos reservados.
-</p>
+## Link for access
+
