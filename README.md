@@ -5,7 +5,7 @@
 
 A web page to expose all my social media links.
 
-## developed using the technologies:
+## Developed using the technologies:
 
 - HTML
 - CSS
@@ -13,6 +13,14 @@ A web page to expose all my social media links.
 - Font Awesome
 
 ---
+
+
+## Layout
+
+
+
+---
+
 
 <p align= "center">
   Desenvolvido por <a href="https://github.com/Nicollas1305">Nicollas Marinho Lima.</a>  Todos os direitos reservados.
