@@ -25,3 +25,17 @@ themeSwitch.addEventListener("change", ({ target: { checked } }) => {
     localStorage.setItem("@NicolasLima/Theme", "light");
   }
 });
+
+function handleFormSubmit(event) {
+  event.preventDefault(); // Impede o envio do formulário padrão
+
+  // Exibir um diálogo/modal do Bootstrap
+  $('#successModal').modal('show');
+
+  // Limpar os campos do formulário
+  document.getElementById("name").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("msg").value = "";
+
+  return false; // Impede que a página seja redirecionada
+}
