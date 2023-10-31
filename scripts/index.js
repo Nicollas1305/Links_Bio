@@ -26,16 +26,19 @@ themeSwitch.addEventListener("change", ({ target: { checked } }) => {
   }
 });
 
-function handleFormSubmit(event) {
-  event.preventDefault(); // Impede o envio do formulário padrão
+$(document).ready(function() {
+  // Impede o envio do formulário padrão
+  $('form.contact-form').on('submit', function(event) {
+    event.preventDefault();
 
-  // Exibir um diálogo/modal do Bootstrap
-  $('#successModal').modal('show');
+    // Exibir um diálogo/modal do Bootstrap
+    $('#successModal').modal('show');
 
-  // Limpar os campos do formulário
-  document.getElementById("name").value = "";
-  document.getElementById("email").value = "";
-  document.getElementById("msg").value = "";
+    // Limpar os campos do formulário
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("msg").value = "";
 
-  return false; // Impede que a página seja redirecionada
-}
+    return false; // Impede que a página seja redirecionada
+  });
+});
